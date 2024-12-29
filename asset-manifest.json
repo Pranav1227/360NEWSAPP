@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Pranav1227/360NEWSAPP/static/css/main.dc4d6ff2.css",
+    "main.js": "/Pranav1227/360NEWSAPP/static/js/main.26dc5c39.js",
+    "static/js/511.2d9204bd.chunk.js": "/Pranav1227/360NEWSAPP/static/js/511.2d9204bd.chunk.js",
+    "static/media/loading.gif": "/Pranav1227/360NEWSAPP/static/media/loading.f0f9ead534fff464d2b9.gif",
+    "index.html": "/Pranav1227/360NEWSAPP/index.html",
+    "main.dc4d6ff2.css.map": "/Pranav1227/360NEWSAPP/static/css/main.dc4d6ff2.css.map",
+    "main.26dc5c39.js.map": "/Pranav1227/360NEWSAPP/static/js/main.26dc5c39.js.map",
+    "511.2d9204bd.chunk.js.map": "/Pranav1227/360NEWSAPP/static/js/511.2d9204bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.26dc5c39.js"
+  ]
+}
