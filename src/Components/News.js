@@ -70,6 +70,14 @@ export class News extends Component {
     });
   };
 
+  async componentDidUpdate(prevProps) {
+    if (prevProps.category !== this.props.category) {
+      console.log(`Category changed to: ${this.props.category}`);
+      this.setState({ page: 1, articles: [] });
+      this.updateNews();
+    }
+  }
+
   render() {
     return (
       <>
@@ -79,7 +87,10 @@ export class News extends Component {
         >
           360News - {this.capitalizeFirstLetter(this.props.category)}{" "}
         </h1>
-        {this.state.loading && <Spinner />}
+        {/* {this.state.loading && <Spinner />} */}
+
+        {this.state.articles.length === 0 && this.state.loading && <Spinner />}
+
         <InfiniteScroll
           dataLength={this.state.articles.length}
           next={this.fetchMoreData}

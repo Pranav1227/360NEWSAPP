@@ -8,11 +8,7 @@ export class NavBar extends Component {
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
-              <img
-                src="/fav.png"
-                alt="360News"
-                style={{ height: "40px", width: "auto" }}
-              />
+              360News
             </Link>
 
             <button
